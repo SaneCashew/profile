@@ -1,0 +1,107 @@
+h1 {
+  color: #bf14bfe4;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 36;
+  line-height: 25px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: rgb(180, 180, 180);
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+h2 {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 28;
+  line-height: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: grey;
+}
+
+#profile_pic {
+  border: 1px solid;
+  padding: 1px;
+  width: 100px;
+  height: 100px;
+}
+
+.standard_div {
+  box-shadow: 1px 1px 10px black;
+  padding: 30px;
+  border-radius: 10px;
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+  background-color: white;
+}
+
+#header_box {
+  padding-bottom: 10px;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.list_inline{
+  padding-left: 0px;
+  list-style: none;
+}
+
+.list_inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-grey {
+  background-color: rgb(163, 163, 163);
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.btn-grey:hover {
+  background-color: rgb(154, 174, 176);
+}
+
+.container {
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
